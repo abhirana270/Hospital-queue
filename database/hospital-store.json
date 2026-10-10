@@ -1,0 +1,269 @@
+{
+  "patients": [
+    {
+      "patientId": "P101",
+      "name": "James Wilson",
+      "age": 68,
+      "gender": "Male",
+      "phone": "555-0111",
+      "symptoms": [
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "emergencyLevel": "Critical",
+      "department": "ER",
+      "arrivalTime": "2026-10-07T16:22:05.090Z",
+      "assignedDoctor": "DOC101",
+      "priorityScore": 0.5,
+      "queueStatus": "InConsultation"
+    },
+    {
+      "patientId": "P102",
+      "name": "Maria Garcia",
+      "age": 42,
+      "gender": "Female",
+      "phone": "555-0122",
+      "symptoms": [
+        "Severe migraine",
+        "Dizziness"
+      ],
+      "emergencyLevel": "Serious",
+      "department": "NEUR",
+      "arrivalTime": "2026-10-07T16:32:05.090Z",
+      "assignedDoctor": null,
+      "priorityScore": 1.8,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P103",
+      "name": "Arthur Pendelton",
+      "age": 72,
+      "gender": "Male",
+      "phone": "555-0133",
+      "symptoms": [
+        "Suspected arm fracture",
+        "Swelling"
+      ],
+      "emergencyLevel": "Moderate",
+      "department": "ORTH",
+      "arrivalTime": "2026-10-07T16:42:05.090Z",
+      "assignedDoctor": "DOC104",
+      "priorityScore": 2.7,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P104",
+      "name": "Emily Davis",
+      "age": 26,
+      "gender": "Female",
+      "phone": "555-0144",
+      "symptoms": [
+        "Mild fever",
+        "Sore throat"
+      ],
+      "emergencyLevel": "Normal",
+      "department": "GEN",
+      "arrivalTime": "2026-10-07T16:17:05.090Z",
+      "assignedDoctor": "DOC103",
+      "priorityScore": 3.7,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P105",
+      "name": "Liam Johnson",
+      "age": 4,
+      "gender": "Male",
+      "phone": "555-0155",
+      "symptoms": [
+        "High fever",
+        "Persistent cough"
+      ],
+      "emergencyLevel": "Serious",
+      "department": "PED",
+      "arrivalTime": "2026-10-07T16:47:05.090Z",
+      "assignedDoctor": null,
+      "priorityScore": 1.7,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P106",
+      "name": "Sophia Clark",
+      "age": 31,
+      "gender": "Female",
+      "phone": "555-0166",
+      "symptoms": [
+        "Routine annual medical checkup"
+      ],
+      "emergencyLevel": "Normal",
+      "department": "GEN",
+      "arrivalTime": "2026-10-07T16:37:05.090Z",
+      "assignedDoctor": "DOC103",
+      "priorityScore": 3.8,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P107",
+      "name": "Daniel Brown",
+      "age": 55,
+      "gender": "Male",
+      "phone": "555-0177",
+      "symptoms": [
+        "Acute abdominal pain"
+      ],
+      "emergencyLevel": "Critical",
+      "department": "ER",
+      "arrivalTime": "2026-10-07T16:57:05.090Z",
+      "assignedDoctor": null,
+      "priorityScore": 0.9,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P108",
+      "name": "Olivia Martinez",
+      "age": 29,
+      "gender": "Female",
+      "phone": "555-0188",
+      "symptoms": [
+        "Joint sprain from sports"
+      ],
+      "emergencyLevel": "Normal",
+      "department": "ORTH",
+      "arrivalTime": "2026-10-07T16:52:05.090Z",
+      "assignedDoctor": null,
+      "priorityScore": 3.9,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P109",
+      "name": "abhishek rana",
+      "age": 22,
+      "gender": "Male",
+      "phone": "68790-56789",
+      "symptoms": [
+        "cancer"
+      ],
+      "emergencyLevel": "Serious",
+      "department": "GEN",
+      "arrivalTime": "2026-10-09T16:05:03.997Z",
+      "assignedDoctor": "DOC103",
+      "priorityScore": 2,
+      "queueStatus": "Waiting"
+    },
+    {
+      "patientId": "P110",
+      "name": "abhishek rana",
+      "age": 22,
+      "gender": "Male",
+      "phone": "68790-56789",
+      "symptoms": [
+        "cancer"
+      ],
+      "emergencyLevel": "Serious",
+      "department": "GEN",
+      "arrivalTime": "2026-10-09T16:05:13.979Z",
+      "assignedDoctor": "DOC103",
+      "priorityScore": 2,
+      "queueStatus": "Waiting"
+    }
+  ],
+  "doctors": [
+    {
+      "doctorId": "DOC101",
+      "name": "Dr. Sarah Jenkins",
+      "specialization": "Emergency Physician",
+      "department": "ER",
+      "isAvailable": true,
+      "currentLoad": 1,
+      "maxLoad": 5
+    },
+    {
+      "doctorId": "DOC102",
+      "name": "Dr. Robert Chen",
+      "specialization": "Cardiologist",
+      "department": "CARD",
+      "isAvailable": true,
+      "currentLoad": 0,
+      "maxLoad": 4
+    },
+    {
+      "doctorId": "DOC103",
+      "name": "Dr. Priya Sharma",
+      "specialization": "General Physician",
+      "department": "GEN",
+      "isAvailable": true,
+      "currentLoad": 4,
+      "maxLoad": 6
+    },
+    {
+      "doctorId": "DOC104",
+      "name": "Dr. Marcus Vance",
+      "specialization": "Orthopedic Surgeon",
+      "department": "ORTH",
+      "isAvailable": true,
+      "currentLoad": 1,
+      "maxLoad": 4
+    },
+    {
+      "doctorId": "DOC105",
+      "name": "Dr. Elena Rostova",
+      "specialization": "Neurologist",
+      "department": "NEUR",
+      "isAvailable": false,
+      "currentLoad": 3,
+      "maxLoad": 3
+    },
+    {
+      "doctorId": "DOC106",
+      "name": "Dr. David Kim",
+      "specialization": "Pediatrician",
+      "department": "PED",
+      "isAvailable": true,
+      "currentLoad": 0,
+      "maxLoad": 5
+    }
+  ],
+  "departments": [
+    {
+      "code": "ER",
+      "name": "Emergency Department",
+      "description": "Immediate trauma and acute critical care",
+      "location": "Ground Floor, Building A"
+    },
+    {
+      "code": "RAD",
+      "name": "Radiology & Imaging",
+      "description": "X-Ray, CT Scan, MRI Diagnostics",
+      "location": "Ground Floor East, Building A"
+    },
+    {
+      "code": "GEN",
+      "name": "General Medicine",
+      "description": "Outpatient consultations and general health checks",
+      "location": "Ground Floor, Building B"
+    },
+    {
+      "code": "CARD",
+      "name": "Cardiology",
+      "description": "Heart care, ECG, cardiac ICU",
+      "location": "2nd Floor, Building B"
+    },
+    {
+      "code": "NEUR",
+      "name": "Neurology",
+      "description": "Brain, nervous system, stroke care",
+      "location": "3rd Floor, Building B"
+    },
+    {
+      "code": "ORTH",
+      "name": "Orthopedics",
+      "description": "Bone, joint, spine, and fracture management",
+      "location": "Ground Floor, Building C"
+    },
+    {
+      "code": "PED",
+      "name": "Pediatrics",
+      "description": "Infant, child, and adolescent healthcare",
+      "location": "2nd Floor, Building C"
+    }
+  ]
+}
